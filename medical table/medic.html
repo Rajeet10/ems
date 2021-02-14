@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="medic.js"></script>
+    <title>Medic</title>
+</head>
+<body>
+    <header>LEAVE DETAILS</header>
+<div class="tab">
+    <table>
+    <tr>
+        <th>Emp_CODE</th>
+        <th>Leave ID</th>
+        <th>Type</th>
+        <th>FROM DATE</th>
+        <th>TO DATE</th>
+        <th>PURPOSE</th>
+        <th>ALTERNATIVES</th>
+        <th>APPLY</th>
+        <th>STATUS</th>
+    </tr>
+        <tr>
+            <td><input type="text" name="Emp_code" id="Emp_code"></td>
+            <td><input type="text" name="Leave_Id" id="Leave_ID" ></td>
+            <!-- <td><select name="type" id="type" >Type
+              <input type="checkbox" name="" id="">ccc
+            </select></td> -->
+            <td><div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn">SHOW TYPES</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">CASUAL LEAVE</a>
+                  <a href="#">SPECIAL CASUAL LEAVE</a>
+                  <a href="#">ON DUTY LEAVE</a>
+                  <a href="#">HALF PAY LEAVE</a>
+                  <a href="#">COMMUTED LEAVE</a>
+                  <a href="#">PATERNITY</a>
+                  <a href="#">MATERNITY</a>
+                  <a href="#">EXTRAORDINARY LEAVE</a>
+                  <a href="#">STUDY LEAVE</a>
+                  <a href="#">STATION LEAVE</a>
+                  <a href="#">EARNED LEAVE</a>
+
+                </div>
+              </div></td>
+            <td><input type="date" name="From_DATE" id="From_Date"placeholder="yyyy/mm/dd"></td>
+            <td><input type="date" name="To_date" id="To_Date" placeholder="yyyy/mm/dd"></td>
+            <td><div class="dropdown">
+                <button onclick="myFunction2()" class="dropbtn2">APPLICATION</button>
+                <div id="myDropdown2" class="dropdown-content2">
+                  <a href="#">PDF</a>
+                </div>
+              </div></td>
+            <td><input type="text" name="Alter" id="Alter"></td>
+            <td><button class="btn">APPLY</button></td>
+            <td><input type="text" name="stat" id="stat" placeholder="pending/accepted"></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
