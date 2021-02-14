@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="medic.css">
+    <script src="medic.js"></script>
+    <title>Medic</title>
+</head>
+<body>
+    <header>LEAVE DETAILS</header>
+<div class="tab">
+    <table>
+    <tr>
+        <th>Emp_CODE</th>
+        <th>Leave ID</th>
+        <th>Type</th>
+        <th>FROM DATE</th>
+        <th>TO DATE</th>
+        <th>PURPOSE</th>
+        <th>ALTERNATIVES</th>
+        <th>APPLY</th>
+        <th>STATUS</th>
+    </tr>
+        <tr>
+            <td><input type="text" name="Emp_code" id="Emp_code"></td>
+            <td><input type="text" name="Leave_Id" id="Leave_ID" ></td>
+            <td><div class="dropdown">
+
+                  <label for="typeleave"></label>
+                  <select id="type" name="type" form="typeleave">
+                  <option value="CASUAL_LEAVE">CASUAL LEAVE</option>
+                  <option value="SPECIAL_CASUAL_LEAVE">SPECIAL CASUAL LEAVE</option>
+                  <option value="HALF_PAY_LEAVE">HALF PAY LEAVE</option>
+                   <option value="ON_DUTY_LEAVE">ON DUTY LEAVE</option>
+                   <option value="COMMUTED_LEAVE">COMMUTED LEAVE</option>
+                   <option value="ON_DUTY_LEAVE">ON DUTY LEAVE</option
+                    ><option value="PATERNITY">PATERNITY</option>
+                   <option value="MATERNITY">MATERNITY</option>
+                   <option value="EXTRAORDINARY_LEAVE">EXTRAORDINARY LEAVE</option>
+                   <option value="STATION_LEAVE">STATION LEAVE</option>
+                   <option value="STUDY_LEAVE">STUDY LEAVE</option>
+                   <option value="EARNED_LEAVE">EARNED LEAVE</option>
+
+                    </select>
+
+                </div>
+              </div></td>
+            <td><input type="date" name="From_DATE" id="From_Date"placeholder="yyyy/mm/dd"></td>
+            <td><input type="date" name="To_date" id="To_Date" placeholder="yyyy/mm/dd"></td>
+            <td><div class="dropdown2">
+              <form action="">
+                <input type="file" id="myFile" name="filename">
+              </form>
+              </div></td>
+            <td><input type="text" name="Alter" id="Alter"></td>
+            <td><button class="btn">APPLY</button></td>
+            <td><input type="text" name="stat" id="stat" placeholder="pending/accepted"></td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>

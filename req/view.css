@@ -1,0 +1,39 @@
+* {margin:0;padding: 9;
+    box-sizing: border-box;
+   
+}
+
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+
+
+}
+header{
+    font-size: 80px;
+    background: rgb(43, 205, 226);
+    color:white;
+    text-align: center;
+
+}
+
+#search{
+  margin:20px 0px 20px 20px ;
+  padding: 9px;
+}
+.search-container button{
+  padding:9px;
+}
+
+table{
+  position: relative;
+  left:150px;
+  margin:20px;
+}
+#emp_c,#req,#apply,#approve,#reas{
+  margin:10px;
+}
+#reas{
+    margin:40px 20px 20px 20px;
+    padding:100px;
+}
