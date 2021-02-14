@@ -54,6 +54,9 @@ header{
     text-decoration: none;
     display: block;
   }
+  .tab{
+    margin:20px;
+  }
   
   .dropdown a:hover {background-color: #ddd;}
   
@@ -89,50 +92,18 @@ header{
       width:78px;height:30px;
       background-color: #2ddd16;
       text-shadow: #ddd;
-      margin:20px 20px 20px 31px; 
+      margin:20px 20px 20px 200px; 
       color: #f1f1f1;
   }
-#stat{
-    text-align: center;
-    width:110px;
-  
-  }
-.dropbtn2 {
-    background-color: #3498DB;
-    color: white;
-    padding: 8px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropbtn2:hover, .dropbtn2:focus {
-    background-color: #2980B9;
-  }
-  
-  .dropdown2 {
+  #myfile{
     position: relative;
-    display: inline-block;
-    margin:20px 20px 20px 20px;
+    left:20px;
   }
   
-  .dropdown-content2 {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  #search{
+    margin:20px 0px 20px 20px ;
+    padding: 9px;
   }
-  
-  .dropdown-content2 a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+  .search-container button{
+    padding:9px;
   }
-  
-  .dropdown2 a:hover {background-color: #ddd;}
-  
-  .show2 {display: block;}

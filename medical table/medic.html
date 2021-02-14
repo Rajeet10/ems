@@ -26,33 +26,33 @@
         <tr>
             <td><input type="text" name="Emp_code" id="Emp_code"></td>
             <td><input type="text" name="Leave_Id" id="Leave_ID" ></td>
-            <!-- <td><select name="type" id="type" >Type
-              <input type="checkbox" name="" id="">ccc
-            </select></td> -->
             <td><div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">SHOW TYPES</button>
-                <div id="myDropdown" class="dropdown-content">
-                  <a href="#">CASUAL LEAVE</a>
-                  <a href="#">SPECIAL CASUAL LEAVE</a>
-                  <a href="#">ON DUTY LEAVE</a>
-                  <a href="#">HALF PAY LEAVE</a>
-                  <a href="#">COMMUTED LEAVE</a>
-                  <a href="#">PATERNITY</a>
-                  <a href="#">MATERNITY</a>
-                  <a href="#">EXTRAORDINARY LEAVE</a>
-                  <a href="#">STUDY LEAVE</a>
-                  <a href="#">STATION LEAVE</a>
-                  <a href="#">EARNED LEAVE</a>
+
+                  <label for="typeleave"></label>
+                  <select id="type" name="type" form="typeleave">
+                  <option value="CASUAL_LEAVE">CASUAL LEAVE</option>
+                  <option value="SPECIAL_CASUAL_LEAVE">SPECIAL CASUAL LEAVE</option>
+                  <option value="HALF_PAY_LEAVE">HALF PAY LEAVE</option>
+                   <option value="ON_DUTY_LEAVE">ON DUTY LEAVE</option>
+                   <option value="COMMUTED_LEAVE">COMMUTED LEAVE</option>
+                   <option value="ON_DUTY_LEAVE">ON DUTY LEAVE</option
+                    ><option value="PATERNITY">PATERNITY</option>
+                   <option value="MATERNITY">MATERNITY</option>
+                   <option value="EXTRAORDINARY_LEAVE">EXTRAORDINARY LEAVE</option>
+                   <option value="STATION_LEAVE">STATION LEAVE</option>
+                   <option value="STUDY_LEAVE">STUDY LEAVE</option>
+                   <option value="EARNED_LEAVE">EARNED LEAVE</option>
+
+                    </select>
 
                 </div>
               </div></td>
             <td><input type="date" name="From_DATE" id="From_Date"placeholder="yyyy/mm/dd"></td>
             <td><input type="date" name="To_date" id="To_Date" placeholder="yyyy/mm/dd"></td>
-            <td><div class="dropdown">
-                <button onclick="myFunction2()" class="dropbtn2">APPLICATION</button>
-                <div id="myDropdown2" class="dropdown-content2">
-                  <a href="#">PDF</a>
-                </div>
+            <td><div class="dropdown2">
+              <form action="">
+                <input type="file" id="myFile" name="filename">
+              </form>
               </div></td>
             <td><input type="text" name="Alter" id="Alter"></td>
             <td><button class="btn">APPLY</button></td>

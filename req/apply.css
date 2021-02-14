@@ -25,12 +25,8 @@ table{
   position: relative;
   left:150px;
   margin:20px;
+  padding: 40px;
 }
-#Leave_ID,#from_Date,#To_Date,#purp,#Alter{
-  margin:20px;
-}
-input[type="file"]{
-border-collapse: separate;
-border-spacing: 100px;
-margin-left: 50px;
+#Leave_ID,#from_Date,#To_Date,#purp,#Alter,.btn{
+  margin:10px;
 }

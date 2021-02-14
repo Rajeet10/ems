@@ -1,9 +1,13 @@
 * {margin:0;padding: 9;
-    box-sizing: border-box;}
+    box-sizing: border-box;
+   
+}
 
 body{
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+
+
 }
 header{
     font-size: 80px;
@@ -26,11 +30,10 @@ table{
   left:150px;
   margin:20px;
 }
-#Leave_ID,#from_Date,#To_Date,#purp,#Alter{
-  margin:20px;
+#emp_c,#req,#apply,#approve,#reas{
+  margin:10px;
 }
-input[type="file"]{
-border-collapse: separate;
-border-spacing: 100px;
-margin-left: 50px;
+#reas{
+    margin:40px 20px 20px 20px;
+    padding:100px;
 }
